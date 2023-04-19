@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+section {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#string-output {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.inputfield {
+  width: 200px;
+  height: 25px;
+}

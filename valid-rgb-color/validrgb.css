@@ -1,0 +1,67 @@
+:root {
+  --r: 00;
+  --b: 00;
+  --g: 00;
+}
+
+.rgbpage {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputfields {
+  display: flex;
+  margin: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+input {
+  width: 40px;
+}
+
+.submit {
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+#color {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(var(--r), var(--g), var(--b));
+}
+
+.outcome-place {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.outcome-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}

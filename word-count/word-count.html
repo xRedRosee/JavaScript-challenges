@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="word-count.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word count</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1 class="text"> Type in a line, press the button and see how many words the line contains </h1>
+            <form>
+                <input type="text" id="stringtext" class="inputfield">
+                <input type="button" onclick="returnWordCount()" class="button" value="check">
+            </form>
+            <div id="wordcount"> ... words</div>
+        </section>
+    </main>
+
+    <script src="word-count.js"></script>
+</body>
+</html>

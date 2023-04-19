@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="validrgb.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="rgbpage">
+            <h2> Put RGB code here! </h2>
+            <form class="inputfields" id="rgbform" action="javascript:checkIfRGBisRight()"> 
+                <span class="inputs">
+                    <label> R </label>
+                    <input type="text" id="r" name="r" value="00">
+                </span>
+                <span class="inputs">
+                    <label> G </label>
+                    <input type="text" id="g" name="g" value="00">
+                </span>
+                <span class="inputs">
+                    <label> B </label>
+                    <input type="text" id="b" name="b" value="00">
+                </span>
+                <input type="submit" value="submit" class="submit" form="rgbform">
+            </form>
+            <div class="outcome-place">
+                <span class="outcome-text">
+                    <div id="outcome"> RGB color is...</div>
+                    <div id="rgbcolorcode"> RGB(00,00,00) </div>
+                </span>
+                <div id="color">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="validrgb.js"></script>
+</body>
+</html>
